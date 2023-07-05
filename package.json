@@ -1,0 +1,26 @@
+{
+  "name": "top.gg-vote-tracker",
+  "version": "1.0.0",
+  "description": "A Discord Bot which keeps track of your bot votes on top.gg!",
+  "main": "src/main.js",
+  "scripts": {
+    "start": "node src/main.js"
+  },
+  "keywords": [
+    "votes",
+    "top-gg",
+    "vote-tracker",
+    "top-gg-votes",
+    "discord",
+    "discord-bot"
+  ],
+  "author": "deemdev",
+  "license": "MIT",
+  "dependencies": {
+    "@top-gg/sdk": "^3.1.5",
+    "discord.js": "^14.11.0",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "term-logger": "^1.1.4"
+  }
+}
